@@ -8,5 +8,9 @@ while num > 0:
     num = num // 10
     digits.append(remainder)
 
-digits.reverse()
-print(digits)
+reverse = digits
+
+if digits == reverse:
+    print("Number is a palindrome.")
+else:
+    print("Number is not a palindrome.")
